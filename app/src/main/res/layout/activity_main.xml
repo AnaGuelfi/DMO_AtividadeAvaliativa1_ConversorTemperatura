@@ -14,7 +14,7 @@
         android:layout_marginTop="20dp"
         android:inputType="numberDecimal"
         android:textAlignment="center"
-        android:hint="@string/temperatura_em_fahrenheit"
+        android:hint="@string/temperatura"
         android:textColorHint="#aaa"/>
 
     <LinearLayout
@@ -44,6 +44,17 @@
             android:layout_weight="1"
             android:backgroundTint="#C5C2C2"
             android:text="@string/converter_para_fahrenheit"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:id="@+id/button_converter_kelvin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="#C5C2C2"
+            android:text="@string/converter_para_kelvin"
             android:textColor="@color/black"/>
 
     </LinearLayout>
